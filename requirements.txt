@@ -1,0 +1,48 @@
+!pip install gspread oauth2client requests
+import os
+import shutil
+!pip install google-auth-oauthlib
+!pip install google-api-python-client
+!pip install pydrive
+!pip install google-cloud-vision
+!pip install --upgrade google-cloud-vision
+!pip install pdf2image
+!pip install pdf-info
+!apt-get -qq install -y graphviz && pip install pyxlsb
+!pip install openxyl
+!pip install PYPDF2
+
+import pyxlsb
+import io
+
+from google.cloud import vision_v1
+from google.cloud.vision_v1 import types
+from pdf2image import convert_from_path
+
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+import google.auth
+from googleapiclient.errors import HttpError
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2 import service_account
+!pip install openpyxl
+import openpyxl
+from PyPDF2 import PdfReader
+from openpyxl import Workbook
+!pip install -r requirements.txt
+!apt update
+!apt-get install libnss3 libnss3-dev
+!apt-get install libcairo2-dev libjpeg-dev libgif-dev
+!apt-get install cmake libblkid-dev e2fslibs-dev libboost-all-dev libaudit-dev
+!wget https://poppler.freedesktop.org/poppler-21.09.0.tar.xz;
+!tar -xvf poppler-21.09.0.tar.xz;
+!mkdir -p poppler-21.09.0/build && \
+cd poppler-21.09.0 && \
+cmake  -DCMAKE_BUILD_TYPE=Release   \
+       -DCMAKE_INSTALL_PREFIX=/usr  \
+       -DTESTDATADIR=$PWD/testfiles \
+       -DENABLE_UNSTABLE_API_ABI_HEADERS=ON && \
+make && \
+make install
