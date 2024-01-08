@@ -1,6 +1,7 @@
-time
+altair
+pandas
+streamlit
 opencv-python
-tensorflow as tf
-matplotlib.pyplot as plt
+tensorflow
+matplotlib
 doctr
-os
