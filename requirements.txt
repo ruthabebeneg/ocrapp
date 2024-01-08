@@ -4,4 +4,5 @@ streamlit
 opencv-python-headless==4.5.1.48 
 tensorflow
 matplotlib
-doctr
+-e doctr/.[tf]
+
