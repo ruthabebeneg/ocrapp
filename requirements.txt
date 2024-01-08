@@ -1,5 +1,5 @@
 time
-cv2
+opencv-python
 tensorflow as tf
 matplotlib.pyplot as plt
 doctr
