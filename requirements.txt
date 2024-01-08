@@ -1,0 +1,6 @@
+time
+opencv-python
+tensorflow as tf
+matplotlib.pyplot as plt
+doctr
+os
