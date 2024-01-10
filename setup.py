@@ -10,6 +10,6 @@ setup(
         'tensorflow',
         'matplotlib',
         'doctr',
-        
     ],
+    cmdclass={'install': lambda x: None},  # Ajoutez cette ligne pour éviter l'erreur
 )
